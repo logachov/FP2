@@ -1,0 +1,175 @@
+.container {
+  margin: 50px auto 10px;
+  padding: 20px;
+  width: 450px;
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: rgb(180, 215, 250);
+}
+.card {
+  width: 70px;
+  background-color: rgb(170, 210, 250);
+}
+.card-cont {
+  padding: 0px 6px;
+}
+div.cities {
+  width: 410px;
+  margin-left: 0;
+  color: darkblue;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.favorites:hover {
+  text-decoration: underline;
+  color: blue;
+  cursor: pointer;
+}
+input {
+  width: 160px;
+  border-radius: 5px;
+}
+button {
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+hr {
+  background-color: red;
+  height: 5px;
+}
+p {
+  margin: 5px auto;
+}
+div.favorites {
+  padding: 0 1px;
+}
+.currentInfo {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  line-height: 1;
+}
+.currentCity {
+  font-size: 26px;
+  line-height: 16px;
+  color: darkblue;
+}
+.currentTime,
+.currentDescription,
+.wind,
+.humidity,
+.windF,
+.humidityF {
+  font-size: 12px;
+  line-height: 16px;
+  color: #000;
+  font-weight: 500;
+}
+.currentDescription {
+  text-transform: capitalize;
+}
+.currentTime {
+  margin-top: 12px;
+}
+
+.TempC,
+.TempF,
+.TempCtoF,
+.TempFtoC {
+  font-size: 26px;
+  line-height: 16px;
+  color: red;
+  font-weight: 500;
+}
+.currentTemp {
+  display: block;
+}
+.secondTemp {
+  cursor: pointer;
+  color: darkblue;
+  font-size: 26px;
+  font-weight: 300;
+}
+.secondTemp:hover {
+  font-weight: 500;
+}
+.hiddenTemp {
+  display: none;
+}
+.col-2 {
+  padding: 0;
+}
+img.currentPicture {
+  text-align: center;
+  width: 70px;
+  height: 70px;
+}
+.forecast {
+  margin: 0 auto;
+}
+.card {
+  padding: 5px;
+}
+.card-title {
+  font-size: 20px;
+  color: red;
+}
+.days {
+  font-size: 12px;
+  font-weight: bold;
+}
+.sun {
+  color: orange;
+  font-size: 20px;
+}
+.cloud {
+  color: darkgrey;
+  font-size: 20px;
+}
+.rain {
+  color: darkblue;
+  font-size: 20px;
+}
+.card {
+  border: none;
+}
+.search {
+  background-color: rgb(33, 194, 33);
+  color: azure;
+}
+.search:hover {
+  color: rgb(33, 194, 33);
+  background-color: azure;
+}
+.current {
+  background-color: rgb(128, 137, 128);
+  color: azure;
+}
+.current:hover {
+  color: rgb(128, 137, 128);
+  background-color: azure;
+}
+.add {
+  background-color: rgb(45, 25, 137);
+  color: azure;
+}
+.add:hover {
+  color: rgb(45, 25, 137);
+  background-color: azure;
+}
+.remove {
+  background-color: rgb(225, 27, 34);
+  color: azure;
+}
+.remove:hover {
+  color: rgb(225, 27, 34);
+  background-color: azure;
+}
+.githubLink {
+  width: 450px;
+  margin: 0px auto;
+  font-size: 12px;
+  font-weight: bolder;
+}

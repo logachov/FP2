@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>myWeather</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row cities">
+        <div class="col favorites" id="Amsterdam">Amsterdam</div>
+        <div class="col favorites" id="Sankt-Peterburg">Sankt-Peterburg</div>
+        <div class="col favorites" id="Kyiv">Kyiv</div>
+        <div class="col favorites" id="Dnipro">Dnipro</div>
+      </div>
+      <form>
+        <input
+          type="text"
+          placeholder="Enter a city"
+          id="search"
+          autocomplete="off"
+        />
+        <button type="submit" class="search">Search</button>
+        <button type="submit" class="current">Current</button>
+        <button type="submit" class="add">Add</button>
+        <button type="submit" class="remove">Remove</button>
+      </form>
+      <hr />
+      <div class="row currentInfo">
+        <div class="col-6">
+          <p class="currentCity">Amsterdam</p>
+          <p class="currentTime">Monday 16:50</p>
+          <p class="currentDescription">Clear</p>
+        </div>
+        <div class="col-2">
+          <img
+            class="currentPicture"
+            src="http://openweathermap.org/img/w/04n.png"
+            alt="Clouds"
+          />
+        </div>
+        <div class="col-4 currentTemp">
+          <span class="TempC">25</span><span class="TempC">&degC</span
+          ><span class="secondTemp">→&degF</span>
+          <p class="humidity">Humidity 35%</p>
+          <p class="wind">Wind 3 m/c</p>
+        </div>
+        <div class="col-4 hiddenTemp">
+          <span class="TempF">25</span><span class="TempF">&degF</span
+          ><span class="secondTemp">→&degC</span>
+          <p class="humidityF">Humidity 35%</p>
+          <p class="windF">Wind 3 m/c</p>
+        </div>
+      </div>
+
+      <div class="row forecast">
+        <div class="btn-group btn-group-justified">
+          <div class="btn-group">
+            <div class="col card-cont">
+              <div class="card">
+                <p class="card-text days day1">Mon</p>
+                <p class="card-title"><span class="temp1">29</span>&degC</p>
+                <p class="card-text"><i class="fa-solid fa-sun sun"></i></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-group">
+            <div class="col card-cont">
+              <div class="card">
+                <p class="card-text days day2">Tue</p>
+                <p class="card-title"><span class="temp2">30</span>&degC</p>
+                <p class="card-text"><i class="fa-solid fa-sun sun"></i></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-group">
+            <div class="col card-cont">
+              <div class="card">
+                <p class="card-text days day3">Wen</p>
+                <p class="card-title"><span class="temp3">28</span>&degC</p>
+                <p class="card-text"><i class="fa-solid fa-sun sun"></i></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-group">
+            <div class="col card-cont">
+              <div class="card">
+                <p class="card-text days day4">Thu</p>
+                <p class="card-title"><span class="temp4">23</span>&degC</p>
+                <p class="card-text">
+                  <i class="fa-solid fa-cloud-sun cloud"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="btn-group">
+            <div class="col card-cont">
+              <div class="card">
+                <p class="card-text days day5">Fri</p>
+                <p class="card-title"><span class="temp5">25</span>&degC</p>
+                <p class="card-text">
+                  <i class="fa-solid fa-cloud-sun-rain rain"></i>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="githubLink">
+      Created by Olesia.<a
+        href="https://github.com/logachov/SIMPLE-APP"
+        target="_blank"
+      >
+        Wellcom to my Github repo.</a
+      >
+    </div>
+    <script
+      src="https://kit.fontawesome.com/431044e55f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script async src="src/index.js"></script>
+  </body>
+</html>
