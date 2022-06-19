@@ -78,12 +78,13 @@ function setCity(event) {
   let cityName = document.querySelector("#search");
   if (cityName.value.length > 0) {
     search(cityName.value);
+    cityName.value = "";
   }
 }
 searchCity.addEventListener("click", setCity);
 
 /////////////////////////////////////////////////////////////////////////////
-// I could not hang an event on dynamically created elements without Jquery /
+// I could not hang an event on dynamically created elements without jQuery /
 /////////////////////////////////////////////////////////////////////////////
 /* let addFavCity = document.querySelector(".add");
 
