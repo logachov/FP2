@@ -18,9 +18,10 @@
     <div class="container">
       <div class="row cities">
         <div class="col favorites" id="Amsterdam">Amsterdam</div>
-        <div class="col favorites" id="Sankt-Peterburg">Sankt-Peterburg</div>
-        <div class="col favorites" id="Kyiv">Kyiv</div>
+        <div class="col favorites" id="Los Angeles">Los Angeles</div>
+        <div class="col favorites" id="Liverpool">Liverpool</div>
         <div class="col favorites" id="Dnipro">Dnipro</div>
+        <div class="col favorites" id="Breukelen">Breukelen</div>
       </div>
       <form>
         <input
@@ -31,8 +32,9 @@
         />
         <button type="submit" class="search">Search</button>
         <button type="submit" class="current">Current</button>
+        <!-- 
         <button type="submit" class="add">Add</button>
-        <button type="submit" class="remove">Remove</button>
+        <button type="submit" class="remove">Remove</button> -->
       </form>
       <hr />
       <div class="row currentInfo">
@@ -63,75 +65,18 @@
       </div>
 
       <div class="row forecast">
-        <div class="btn-group btn-group-justified">
-          <div class="btn-group">
-            <div class="col card-cont">
-              <div class="card">
-                <p class="card-text days day1">Mon</p>
-                <p class="card-title"><span class="temp1">29</span>&degC</p>
-                <p class="card-text"><i class="fa-solid fa-sun sun"></i></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="btn-group">
-            <div class="col card-cont">
-              <div class="card">
-                <p class="card-text days day2">Tue</p>
-                <p class="card-title"><span class="temp2">30</span>&degC</p>
-                <p class="card-text"><i class="fa-solid fa-sun sun"></i></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="btn-group">
-            <div class="col card-cont">
-              <div class="card">
-                <p class="card-text days day3">Wen</p>
-                <p class="card-title"><span class="temp3">28</span>&degC</p>
-                <p class="card-text"><i class="fa-solid fa-sun sun"></i></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="btn-group">
-            <div class="col card-cont">
-              <div class="card">
-                <p class="card-text days day4">Thu</p>
-                <p class="card-title"><span class="temp4">23</span>&degC</p>
-                <p class="card-text">
-                  <i class="fa-solid fa-cloud-sun cloud"></i>
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="btn-group">
-            <div class="col card-cont">
-              <div class="card">
-                <p class="card-text days day5">Fri</p>
-                <p class="card-title"><span class="temp5">25</span>&degC</p>
-                <p class="card-text">
-                  <i class="fa-solid fa-cloud-sun-rain rain"></i>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="btn-group btn-group-justified" id="group"></div>
       </div>
     </div>
     <div class="githubLink">
-      Created by Olesia.<a
-        href="https://github.com/logachov/SIMPLE-APP"
+      Created by Olesia Lohachova.<a
+        href="https://github.com/logachov/FP2"
         target="_blank"
       >
-        Wellcom to my Github repo.</a
+        Welcome to my Github repository.</a
       >
     </div>
-    <script
-      src="https://kit.fontawesome.com/431044e55f.js"
-      crossorigin="anonymous"
-    ></script>
+
     <script async src="src/index.js"></script>
   </body>
 </html>

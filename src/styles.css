@@ -113,25 +113,24 @@ img.currentPicture {
   padding: 5px;
 }
 .card-title {
-  font-size: 20px;
-  color: red;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 5px 0 0 0;
+  text-align: center;
 }
 .days {
   font-size: 12px;
   font-weight: bold;
-}
-.sun {
-  color: orange;
-  font-size: 20px;
-}
-.cloud {
-  color: darkgrey;
-  font-size: 20px;
-}
-.rain {
   color: darkblue;
-  font-size: 20px;
 }
+.tempMax {
+color: red;
+}
+
+.tempMin {
+  color: blue;
+}
+
 .card {
   border: none;
 }
